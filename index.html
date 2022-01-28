@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Template</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body
+    class="position-relative"
+    data-bs-spy="scroll"
+    data-bs-target="#navbar-example2"
+  >
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+      id="navbar-example2"
+    >
+      <div class="container">
+        <a class="navbar-brand text-primary" href="#">Ag Coding</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="home vh-100">
+      <div class="container h-100 d-flex align-items-center">
+        <div class="content position-relative text-center text-md-start">
+          <h1>Welcome to <span class="text-primary">Ag Coding</span></h1>
+          <p class="text-muted fs-5">
+            We are team of talented designers making websites with Bootstrap
+          </p>
+          <div class="buttons">
+            <button type="button" class="btn btn-primary">Get Started</button>
+            <button
+              type="button"
+              class="btn btn-outline-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <i class="bi bi-play-circle"></i> Watch Video
+            </button>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Our Video
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <iframe
+                      class="w-100 h-100"
+                      src="https://www.youtube.com/embed/S4ERCYFR28U"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-title">
+          <h4>About</h4>
+          <div>Find Out More <span class="text-primary">About Us </span></div>
+          <p>
+            Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+            adipisci expedita at voluptas atque vitae autem.
+          </p>
+        </div>
+        <div class="content row py-5">
+          <div class="col-12 col-lg-6 my-anime">
+            <img src="./img/about (2).jpg" alt="" class="w-100" />
+          </div>
+          <div class="col-12 col-lg-6 my-anime">
+            <h5>
+              Voluptatem dignissimos provident quasi corporis voluptates sit
+              assumenda.
+            </h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="d-flex justify-content-between">
+              <div class="icon">
+                <i class="bi bi-book text-primary fs-3"></i>
+              </div>
+              <div class="text">
+                <h5>Ullamco laboris nisi ut aliquip consequat</h5>
+                <p>
+                  Magni facilis facilis repellendus cum excepturi quaerat
+                  praesentium libre trade
+                </p>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between">
+              <div class="icon">
+                <i class="bi bi-book text-primary fs-3"></i>
+              </div>
+              <div class="text">
+                <h5>Ullamco laboris nisi ut aliquip consequat</h5>
+                <p>
+                  Magni facilis facilis repellendus cum excepturi quaerat
+                  praesentium libre trade
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- progress -->
+    <section class="progress-section bg-white pt-5">
+      <div class="container">
+        <div
+          class="content row justify-content-center justify-content-lg-between"
+        >
+          <div class="col-8 col-lg-6 mb-4">
+            <div class="text d-flex justify-content-between">
+              <b>Html</b><span class="skill-rate fw-bold"></span>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped"
+                role="progressbar"
+                aria-valuenow="40%"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="col-8 col-lg-6 mb-4">
+            <div class="text d-flex justify-content-between">
+              <b>CSS</b><span class="skill-rate fw-bold"></span>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped"
+                role="progressbar"
+                aria-valuenow="50%"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="col-8 col-lg-6 mb-4">
+            <div class="text d-flex justify-content-between">
+              <b>JavaScript</b><span class="skill-rate fw-bold"></span>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped"
+                role="progressbar"
+                aria-valuenow="60%"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="col-8 col-lg-6 mb-4">
+            <div class="text d-flex justify-content-between">
+              <b>Php</b><span class="skill-rate fw-bold"></span>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped"
+                role="progressbar"
+                aria-valuenow="70%"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="col-8 col-lg-6 mb-4">
+            <div class="text d-flex justify-content-between">
+              <b>WORDPRESS</b><span class="skill-rate fw-bold"></span>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped"
+                role="progressbar"
+                aria-valuenow="80%"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+          <div class="col-8 col-lg-6 mb-4">
+            <div class="text d-flex justify-content-between">
+              <b>PhotoShop</b><span class="skill-rate fw-bold"></span>
+            </div>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped"
+                role="progressbar"
+                aria-valuenow="90%"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="numbers-section">
+      <div class="container">
+        <div class="content row justify-content-center">
+          <div class="box col-8 col-md-5 col-lg-3 position-relative">
+            <div class="icon position-absolute">
+              <i class="bi bi-emoji-smile"></i>
+            </div>
+            <div class="content">
+              <div class="number" data-number="110">0</div>
+              <div class="text">Happy Clients</div>
+            </div>
+          </div>
+          <div class="box col-8 col-md-5 col-lg-3 position-relative">
+            <div class="icon position-absolute">
+              <i class="bi bi-journal-richtext"></i>
+            </div>
+            <div class="content">
+              <div class="number" data-number="120"></div>
+              <div class="text">Projects</div>
+            </div>
+          </div>
+          <div class="box col-8 col-md-5 col-lg-3 position-relative">
+            <div class="icon position-absolute">
+              <i class="bi bi-headset"></i>
+            </div>
+            <div class="content">
+              <div class="number" data-number="24"></div>
+              <div class="text">Hours Of Support</div>
+            </div>
+          </div>
+          <div class="box col-8 col-md-5 col-lg-3 position-relative">
+            <div class="icon position-absolute">
+              <i class="bi bi-people"></i>
+            </div>
+            <div class="content">
+              <div class="number" data-number="15"></div>
+              <div class="text">Hard Workers</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="brands-section">
+      <div class="container">
+        <div
+          class="content d-flex flex-wrap justify-content-between align-items-center"
+        >
+          <figure>
+            <img class="w-100" src="img/clients/client-1.png" alt="" />
+          </figure>
+          <figure>
+            <img class="w-100" src="img/clients/client-2.png" alt="" />
+          </figure>
+          <figure>
+            <img class="w-100" src="img/clients/client-3.png" alt="" />
+          </figure>
+          <figure>
+            <img class="w-100" src="img/clients/client-4.png" alt="" />
+          </figure>
+          <figure>
+            <img class="w-100" src="img/clients/client-5.png" alt="" />
+          </figure>
+          <figure>
+            <img class="w-100" src="img/clients/client-6.png" alt="" />
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section class="services-section mt-5" id="services">
+      <div class="container">
+        <div class="section-title">
+          <h4>SERVICES</h4>
+          <div>Check our <span class="text-primary"> Services</span></div>
+          <p>
+            Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+            adipisci expedita at voluptas atque vitae autem.
+          </p>
+        </div>
+        <div class="content mt-5 row">
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="box my-anime text-start p-5 shadow">
+              <i class="bi bi-bar-chart-steps text-primary fs-3"></i>
+              <h4 class="fw-bold">Lorem, ipsum dolor.</h4>
+              <p class="lead">
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="box my-anime text-start p-5 shadow">
+              <i class="bi bi-bar-chart-steps text-primary fs-3"></i>
+              <h4 class="fw-bold">Lorem, ipsum dolor.</h4>
+              <p class="lead">
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="box my-anime text-start p-5 shadow">
+              <i class="bi bi-bar-chart-steps text-primary fs-3"></i>
+              <h4 class="fw-bold">Lorem, ipsum dolor.</h4>
+              <p class="lead">
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-xl-3">
+            <div class="box my-anime text-start p-5 shadow">
+              <i class="bi bi-bar-chart-steps text-primary fs-3"></i>
+              <h4 class="fw-bold">Lorem, ipsum dolor.</h4>
+              <p class="lead">
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="slider-section mt-5">
+      <div class="container h-100">
+        <div class="content h-100">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide h-100 pt-4 position-relative"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner h-100">
+              <div class="carousel-item active h-100">
+                <img
+                  src="./img/testimonials/testimonials-1.jpg"
+                  class="d-block mx-auto mt-3 rounded-circle"
+                  alt="..."
+                />
+                <div class="carousel-caption d-md-block">
+                  <h5>First slide label</h5>
+                  <p>
+                    Some representative placeholder content for the first slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item h-100">
+                <img
+                  src="./img/testimonials/testimonials-2.jpg"
+                  class="d-block mx-auto mt-3 rounded-circle"
+                  alt="..."
+                />
+                <div class="carousel-caption d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>
+                    Some representative placeholder content for the second
+                    slide.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item h-100">
+                <img
+                  src="./img/testimonials/testimonials-3.jpg"
+                  class="d-block mx-auto mt-3 rounded-circle"
+                  alt="..."
+                />
+                <div class="carousel-caption d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>
+                    Some representative placeholder content for the third slide.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="section-title">
+          <h4>Portfolio</h4>
+          <div>Check our <span class="text-primary"> Portfolio</span></div>
+          <p>
+            Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+            adipisci expedita at voluptas atque vitae autem.
+          </p>
+        </div>
+        <div class="content">
+          <ul class="list-group list-group-horizontal justify-content-center">
+            <li class="list-group-item active" data-filter="all">All</li>
+            <li class="list-group-item" data-filter="web">Web</li>
+            <li class="list-group-item" data-filter="photo">Photo</li>
+            <li class="list-group-item" data-filter="app">App</li>
+          </ul>
+          <div class="gallery row mt-5">
+            <figure
+              class="col-12 col-md-6 col-lg-4 all web d-flex bg-white align-items-center"
+            >
+              <img
+                class="img-fluid border"
+                src="img/portfolio/portfolio-5.jpg"
+                alt=""
+              />
+            </figure>
+            <figure
+              class="col-12 col-md-6 col-lg-4 all app d-flex bg-white align-items-center"
+            >
+              <img
+                class="img-fluid border"
+                src="img/portfolio/portfolio-1.jpg"
+                alt=""
+              />
+            </figure>
+            <figure
+              class="col-12 col-md-6 col-lg-4 all photo d-flex bg-white align-items-center"
+            >
+              <img
+                class="img-fluid border"
+                src="img/portfolio/portfolio-6.jpg"
+                alt=""
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-title">
+          <h4>Contact Us</h4>
+          <div>Check our <span class="text-primary"> Contact Us</span></div>
+          <p>
+            Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+            adipisci expedita at voluptas atque vitae autem.
+          </p>
+        </div>
+        <div class="content">
+          <div class="info row mt-5">
+            <div class="my-anime col-12 col-lg-6">
+              <div class="box shadow text-center p-3 mb-3">
+                <div class="icon">
+                  <i class="bi bi-geo-alt-fill fs-2 text-primary"></i>
+                </div>
+                <h4 class="text-muted mt-2">Our Address</h4>
+                <p class="text-muted mt-2">
+                  A108 Adam Street, New York, NY 535022
+                </p>
+              </div>
+            </div>
+            <div class="my-anime col-6 col-lg-3">
+              <div class="box shadow text-center p-3 mb-3">
+                <div class="icon">
+                  <i class="bi bi-telephone-fill fs-2 text-primary"></i>
+                </div>
+                <h4 class="text-muted mt-2">Call Us</h4>
+                <p class="text-muted mt-2">+1 5589 55488 55</p>
+              </div>
+            </div>
+            <div class="my-anime col-6 col-lg-3">
+              <div class="box shadow text-center p-3 mb-3">
+                <div class="icon">
+                  <i class="bi bi-envelope fs-2 text-primary"></i>
+                </div>
+                <h4 class="text-muted mt-2">Email Us</h4>
+                <p class="text-muted mt-2">contact@example.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5 align-items-center">
+            <div class="my-anime map col-12 col-lg-6">
+              <div class="p-3 shadow">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.6038954109!2d31.328505179821896!3d30.05961847039175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2z2KfZhNmC2KfZh9ix2KnYjCDZhdit2KfZgdi42Kkg2KfZhNmC2KfZh9ix2KnigKw!5e0!3m2!1sar!2seg!4v1643401992163!5m2!1sar!2seg"
+                  width="100%"
+                  height="350"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
+            <div class="my-anime mt-5 mt-lg-0 form col-12 col-lg-6">
+              <form class="row g-3 shadow p-2">
+                <div class="col-md-6">
+                  <!-- <label for="inputEmail4" class="form-label"></label> -->
+                  <input
+                    placeholder="Your Name"
+                    type="email"
+                    class="form-control"
+                    id="inputEmail4"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <!-- <label for="inputPassword4" class="form-label"></label> -->
+                  <input
+                    placeholder="Your Email"
+                    type="email"
+                    class="form-control"
+                    id="inputPassword4"
+                  />
+                </div>
+                <div class="col-12">
+                  <!-- <label for="inputAddress" class="form-label"></label> -->
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputAddress"
+                    placeholder="Subject"
+                  />
+                </div>
+                <div class="col-12">
+                  <!-- <label for="textArea" class="form-label"></label> -->
+                  <textarea
+                    name="textArea"
+                    id="textArea"
+                    placeholder="Your Message"
+                    class="form-control"
+                    rows="6"
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="mt-5">
+      <div class="container">
+        <div class="content py-5 text-muted text-center row">
+          <div class="info col-12 col-lg-3">
+            <h4>Ag Coding</h4>
+            <p class="lead">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              ipsum assumenda rem repellat similique corrupti
+            </p>
+            <p><b>Email: </b> info@example.com</p>
+            <p><b>Phone : </b>+111 22 333 4444</p>
+          </div>
+          <div class="links col-12 col-sm-6 col-lg-3">
+            <h4>Useful Links</h4>
+            <ul>
+              <li>
+                <a href="#" class="text-decoration-none text-primary">Link</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-primary">Link</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-primary">Link</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-primary">Link</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-primary">Link</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-primary">Link</a>
+              </li>
+            </ul>
+          </div>
+          <div class="links col-12 col-sm-6 col-lg-3">
+            <h4>Useful Links</h4>
+            <ul>
+              <li>
+                <a href="#" class="text-decoration-none text-primary">Link</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-primary">Link</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-primary">Link</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-primary">Link</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-primary">Link</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-primary">Link</a>
+              </li>
+            </ul>
+          </div>
+          <div class="social col-12 col-lg-3">
+            <h4>Our Social Networks</h4>
+            <p>
+              Cras fermentum odio eu feugiat lide par naso tierra videa magna
+              derita valies
+            </p>
+            <span
+              ><i
+                class="bi bi-twitter fs-5 py-1 px-2 rounded-1 text-white bg-primary"
+              ></i
+            ></span>
+            <span
+              ><i
+                class="bi bi-facebook fs-5 py-1 px-2 rounded-1 text-white bg-primary"
+              ></i
+            ></span>
+            <span
+              ><i
+                class="bi bi-skype fs-5 py-1 px-2 rounded-1 text-white bg-primary"
+              ></i
+            ></span>
+            <span
+              ><i
+                class="bi bi-instagram fs-5 py-1 px-2 rounded-1 text-white bg-primary"
+              ></i
+            ></span>
+            <span
+              ><i
+                class="bi bi-linkedin fs-5 py-1 px-2 rounded-1 text-white bg-primary"
+              ></i
+            ></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
